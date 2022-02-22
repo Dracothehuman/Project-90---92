@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<h4 id="p1_name"></h4> <span id="Span_p1"></span>
+		<br>
+		<h4 id="P2_name"></h4> <span id="Span_p2"></span>
+	</div>
+	<div class="container">
+		<center>
+			<h2 style="color: white;">Math quiz!!</h2>
+			<br>	
+			<h3 id="player_question"></h3>
+			<h3 id="player_answer"></h3>
+			<div id="answer_or_question" class="col-lg-6"></div>
+			<br>
+			<br>
+			<label>Send Your Question:<b style="color: white">Put a math question that is not to easy/not to hard for the answerer.</b></label>
+			<br>
+			<h4>Insert a number</h4><input type="text" class="forn-control" placeholder="Insert equation Here" id="equation">
+			<br>
+			<h4>Insert a number</h4><input type="text" class="forn-control" placeholder="Insert equation Here" id="equation2">
+			<br>
+			<br>
+			<button id="Send" onclick="send()" class="btn btn-success" style="width: 30%;">Time for your friend to answer!</button>
+
+		</center>
+	</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
